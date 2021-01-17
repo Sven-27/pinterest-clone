@@ -1,0 +1,234 @@
+ /* .header{
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 4px 4px 16px;
+    flex: 1 1 auto;
+} */
+
+.header__wrapper{
+   width: 100vw;
+    display: flex;
+    align-items: center;
+    height: 56px;
+    margin: 0;
+    color: #000;
+    background: #fff;
+}
+
+.header__center{
+    flex: 1;
+}
+
+.header__search__container{
+    background: #efefef;
+    display: flex;
+    align-items: center;
+    height: 48px;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+}
+
+.header__search__container > form{
+    display: flex;
+    flex: 1;
+}
+
+.header__search__container > form > input{
+    flex: 1;
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+.header__search__container > form > input:focus{
+    outline: none;
+}
+
+.header__search__container > form > input:hover{
+    outline: none
+}
+.header__search__container > form > input:active{
+    outline: none
+}
+
+.header__search__container > form > button{
+    display: none;
+}
+
+.header__left .header__logo .MuiSvgIcon-root{
+    font-size: 32px;
+    color: #e60023;
+}
+
+ .header__left{
+
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    margin-right: 8px;;
+}
+
+.header__button{
+    display: flex;
+    height: 48px;
+    min-width: 123px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 24px;
+    background: rgb(17,17,17);
+    cursor: pointer;
+}
+
+.header__button:hover{
+    background: #e1e1e1;
+}
+
+.homePage .btn{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+ .following{
+     text-decoration: none;
+     color: #000;
+    background: #fff;
+    font-weight: 700;
+}
+
+/* .following:hover{
+    background: #e1e1e1;
+}
+
+.btn.following:hover{
+    background: #e1e1e1;
+} */
+
+
+/*
+.header__left .btn__logo .header__logo{
+    min-width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.header__left .btn__logo{
+    border-radius: 50%;
+}
+
+.header__left .header__logo:hover {
+    background: #ececec;
+}
+
+.header__left .header__logo .MuiSvgIcon-root{
+    width: 28px;
+    height: auto;
+    color: #e60023;
+}
+
+ .header__left .btn{
+    font-size: 17px;
+    height: 48px;
+    width: 125px;
+    padding: 0 16px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-weight: 700;
+    text-decoration: none;
+ }
+
+ .header__left .btn:hover{
+     background: #ececec;
+ }
+
+.header__center{
+    border: none;
+    border-radius: 50px;
+    background: #eee;
+    width: 70%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.header__center .MuiSvgIcon-root{
+    width: 24px;
+    height: 24px;
+    stroke: #555;
+    stroke-width: 1.7;
+    margin: 0 8px 0 16px;
+}
+    
+
+ .header__center .header__form input{
+    background: transparent;
+    border: none;
+    font-size: 16px;
+    width: 840px;
+    height: 48px;
+    flex-grow: 1;
+    outline: none;
+    display: flex;
+    align-self: center;
+    justify-content: stretch;
+}
+
+.header__center .header__form input[type="text"]::placeholder{
+font-size: 16px;
+color: #333;
+}
+
+.header__center .header__form .btn{
+    justify-content: flex-end;
+}
+*/
+.header__right{
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 16px;
+}
+/*
+.header__right .header__right__icon{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.header__right .header__right__icon:hover,
+.header__right .icon-one:hover {
+    background: #ececec;
+}
+
+.header__right .icon-one{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    
+}
+
+
+.header__right .MuiSvgIcon-root{
+    width: 28px;
+    height: 28px;
+}
+
+ */

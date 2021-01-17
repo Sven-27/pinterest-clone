@@ -1,1 +1,5 @@
 [0105/204818.283:ERROR:directory_reader_win.cc(43)] FindFirstFile: Het systeem kan het opgegeven pad niet vinden. (0x3)
+[0108/084214.080:ERROR:directory_reader_win.cc(43)] FindFirstFile: Het systeem kan het opgegeven pad niet vinden. (0x3)
+[0109/230229.265:ERROR:directory_reader_win.cc(43)] FindFirstFile: Het systeem kan het opgegeven pad niet vinden. (0x3)
+[0110/085744.885:ERROR:directory_reader_win.cc(43)] FindFirstFile: Het systeem kan het opgegeven pad niet vinden. (0x3)
+[0112/201100.862:ERROR:directory_reader_win.cc(43)] FindFirstFile: Het systeem kan het opgegeven pad niet vinden. (0x3)
